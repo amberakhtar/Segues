@@ -9,6 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBAction func no(_ sender: UIButton)
+    {
+    performSegue(withIdentifier: "no", sender: self)
+    }
+    
+    
+    @IBAction func yes(_ sender: UIButton)
+    {
+    performSegue(withIdentifier: "yes", sender: self)
+    }
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
